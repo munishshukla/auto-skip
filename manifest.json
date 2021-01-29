@@ -1,0 +1,22 @@
+{
+  "name": "Auto Skip",
+  "version": "0.0.1",
+  "description": "Skip Youtube ads automatically.",
+  "icons": {
+    "16": "images/autoskip16.png",
+    "32": "images/autoskip32.png",
+    "48": "images/autoskip48.png",
+    "128": "images/autoskip128.png"
+  },
+  "manifest_version": 2,
+
+  "author": "Kodebroz",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["kodebroz_auto_skip_content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
