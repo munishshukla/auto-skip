@@ -6,6 +6,8 @@
 
 > Skip Youtube ads automatically
 
+<a href='https://chrome.google.com/webstore/detail/auto-skip/phnofgchbnhnblinddmnmkjhpifciimb?hl=en' target='_blank'>`Download from chrome web store`</a>
+
 ---
 
 ## Hey there,
